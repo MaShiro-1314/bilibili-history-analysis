@@ -25,3 +25,8 @@ Bilibili Personal Viewing History Data Analysis
 - `history_raw.json` - 原始数据（示例）
 - `bilibili_analysis.png` - 分析报告图表
 
+# 使用方法
+1. 从浏览器获取 B 站 Cookie (SESSDATA)
+2. 将 Cookie 填入 `fetch_history.py` 中的对应位置
+3. 运行 `python fetch_history.py` 获取数据
+4. 运行 `python analyze.py` 生成分析报告
